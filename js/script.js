@@ -53,7 +53,8 @@ const renderPokemon = async (pokemon) => {
     pokemonImage.style.display = 'block';
     pokemonName.innerHTML = data.name;
     pokemonNumber.innerHTML = data.id;
-    pokemonImage.src = data['sprites']['versions']['generation-v']['black-white']['animated']['front_default'];
+    //pokemonImage.src = data['sprites']['versions']['generation-v']['black-white']['animated']['front_default'];
+    pokemonImage.src = data.sprites.versions["generation-v"]["black-white"].animated.front_default || data.sprites.other["official-artwork"].front_default || data.sprites.other.home.front_default || data.sprites.front_default;
     input.value = '';
     data.types.forEach(type => {
 
