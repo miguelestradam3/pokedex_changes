@@ -21,7 +21,7 @@ A modern and responsive **Pokédex** built with **HTML, CSS, Bootstrap 5, JavaSc
 Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/pokedex.git
+git clone https://github.com/miguelestradam3/pokedex_changes.git
 ```
 
 Open `index.html` in your preferred browser.
